@@ -1,9 +1,13 @@
 <div class="card-container">
   <img
   class="card-img"
-  src="../assets/assassins-credd.jpeg"
+  [src]="[gameImage]"
   alt=""
   >
-  <app-card-label></app-card-label>
-  <app-card-pricing></app-card-pricing>
+  <app-card-label
+  gameLabel="{{gameLabel}}"
+  ></app-card-label>
+  <app-card-pricing
+  gamePricing = "{{gamePricing}}"
+  ></app-card-pricing>
 </div>

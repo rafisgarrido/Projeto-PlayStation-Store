@@ -1,9 +1,9 @@
-.card-pricing-container{
-  position: absolute;
+.card-pricing__container{
+	position: absolute;
 	bottom:0px;
 	left: 0;
-	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+  display: inline-flex;
 	width: 100%;
 	height: 70px;
 	background-color: rgba(0,0,0,0.8);
@@ -12,24 +12,24 @@
 	font-family: Calibri;
 }
 
-.card-pricing-title{
+.card-pricing__title{
 	margin-bottom: 3px;
 }
 
-.card-pricing-value{
-	display: flex;
+.card-pricing__title > span{
+  font-weight: bolder;
+	color:aqua;
+	margin-right: 10px;
+}
+.card-pricing__value{
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.card-pricing-value-console{
-	display: flex;
+.card-pricing__value__console{
+	display:inline-flex;
 	flex-direction: row;
 }
 
-.card-pricing-value-console > span{
-	font-weight: bolder;
-	color:aqua;
-	margin-right: 10px;
-}
+
 
